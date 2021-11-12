@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="./stoper.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1 id="stoper">0:00</h1>
+      <div id="buttons">
+        <button id="set-minutes" class="buttons">Set minutes</button>
+        <button id="start" class="buttons">Start</button>
+        <button id="stop" class="buttons">Stop</button>
+        <button id="reset" class="buttons">Reset</button>
+      </div>
+      <div id="invisible">
+        <form id="formInput">
+          <input id="usrInput" type="number" min="1" required/>
+          <button class="buttons" type="submit">Confirm</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
