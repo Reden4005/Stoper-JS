@@ -54,6 +54,7 @@ class Mainboard {
   }
 
   resetCounting() {
+    seconds = 60;
     this.usrChoose.textContent = `0:00`;
     this.startCounting.stopCounting();
     this.buttonsDisableHandler(true);
